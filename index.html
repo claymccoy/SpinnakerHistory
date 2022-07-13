@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/clay.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="lib/img/spinArtifact2.jpeg">
+					<h1>Hardcore Spinnaker History</h1>
+				</section>
+
+				<section>
+					<div>
+						<img src="lib/img/family.jpeg" width="400" />
+						<img src="lib/img/McCoy_LSL-25.jpg" width="180" />
+						<img src="lib/img/bluebelt.jpg" width="200" />
+						<h2>Clay McCoy</h2>
+						<span>Principal Software Engineer @ Armory (since Oct 2019)</span>
+					</div>
+				</section>
+
+				<section>
+					<h1>Netflix Application Console (NAC)</h1>
+					<div>
+						<img src="lib/img/vu.png" width="180" />
+						<img src="lib/img/vudo.png" width="400" />
+					</div>
+					<div>
+						<img src="lib/img/nac.png" width="500" />
+					</div>
+					<ul>
+							<li>Created by Vu in 2008</li>
+							<li>Grails UI for AWS</li>
+							<li>hid credentials</li>
+							<li>activity logging</li>
+						</ul>
+				</section>
+
+				<section data-background="lib/img/nac.png">
+					<h1>Netflix Application Console (NAC)</h1>
+					<div>
+						<img src="lib/img/JavaP.jpeg" width="300" />
+						<img src="lib/img/joe.png" width="300" />
+					</div>
+					<ul>
+							<li>Carls team took over NAC</li>
+							<li>Joe Sondow worked on NAC full time</li>
+						</ul>
+				</section>
+				
+				<section >
+					<div>
+						<img src="lib/img/ClayChoice.png" width="700" />
+					</div>
+				</section>
+
+				<section >
+					<h1>Asgard</h1>
+						<img src="lib/img/AsgardBlogPost.png" width="500" />
+					<ul>
+							<li>NAC rebranded as Asgard</li>
+							<li>Grails monolith</li>
+							<li>AWS only</li>
+							<li>in memory tasks</li>
+							<li>ran in datacenter</li>
+							<li>cloud inventory</li>
+							<li>enforce conventions</li>
+						</ul>
+				</section>
+
+				<section >
+					<h1>Asgard</h1>
+						<img src="lib/img/asgard-blog-post-cluster.png" width="500" />
+						<ul>
+							<li>naming</li>
+							<li>applications</li>
+							<li>ASG usage</li>
+							<li>clusters</li>
+							<li>rolling push</li>
+							<li>red/black</li>
+						</ul>
+				</section>
+
+				<section >
+					<h1>Asgard Show</h1>
+						<img src="lib/img/AsgardShow.png" width="500" />
+				</section>
+				
+				<section>
+					<iframe width="600" height="400"
+						src="https://www.youtube.com/embed/WoGnWUOq7yA">
+					</iframe>
+			    </section>
+
+				<section >
+					<div>
+						<img src="lib/img/Carl2.png" width="400" />
+					</div>
+				</section>
+
+				<section data-background="lib/img/oldSpinLogo.png">
+					<h1>Blue Spar</h1>
+					    <img src="lib/img/asgardToBluespar.png" width="500" />
+						<ul>
+							<li>improved REST API</li>
+							<li>cloud native</li>
+							<li>dogfood microservices</li>
+							<li>mulit-cloud (no forking)</li>
+							<li>long running workflows</li>
+							<li>kato, oort, mort, orca</li>
+							<li>initial AWS support is mostly code from Asgard</li>
+						</ul>
+				</section>
+
+				<section data-background="lib/img/spinLogo.png">
+					<h1>Spinnaker</h1>
+					   <img src="lib/img/bluesparToSpinnaker.png" width="500" />
+						<ul>
+							<li>Asgard feature parity</li>
+							<li>kato, oort, mort -> clouddriver</li>
+							<li>orca: Spring Batch workflow originally</li>
+							<li>executions and later pipelines</li>
+							<li>SpeL expressions</li>
+						</ul>
+				</section>
+
+				<section >
+						<img src="lib/img/spinTopology.png" width="500" />
+				</section>
+
+				<section >
+					<img src="lib/img/AsgardToSpinBlogPost.png" width="500" />
+			   </section>
+
+				<section>
+					<img class="stretch" src="lib/img/spinOSS.png" />
+				</section>
+
+
+				<section >
+					   <img src="lib/img/SpinnakerBlogPost2.png" width="500" />
+				</section>
+				<section >
+					   <img src="lib/img/spinheadline.png" width="500" />
+				</section>
+
+				<section data-background="lib/img/google.png">
+						<ul>
+							<li>Halyard</li>
+							<li>Rosco</li>
+							<li>K8</li>
+						</ul>
+				</section>
+
+				<section >
+					<div>
+						<img src="lib/img/SpinWorkflowEvolution.png" width="700" />
+					</div>
+				</section>
+
+				<section data-background="lib/img/sailaway.png">
+					<ul>
+						<li>What did I work on?</li>
+						<li>What did I learn?</li>
+						<li>What innovations did I see?</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<img src="lib/img/callidusLogo.png" width="300" />
+					<dl>
+						<dt>What did I work on? (2009)</dt>
+						<dd>Grails deployment app</dd>
+						<dt>What did I learn?</dt>
+						<dd>Improvments to software delivery can have huge impacts to an organization</dd>
+						<dt>What innovations did I see?</dt>
+						<dd>Rails/Grails provided holistic structure for an app</dd>
+					</dl>
+				</section>
+
+
+				<section>
+					<img src="lib/img/netflixLogo.png" width="300" />
+					<dl>
+						<dt>What did I work on? (2011)</dt>
+						<dd>Asgard and Spinnaker</dd>
+						<dt>What did I learn?</dt>
+						<dd>Don't write your own workflow engine.</dd>
+						<dt>What innovations did I see?</dt>
+						<dd><ul>
+							<li>freedom and responsibility</li>
+							<li>red/black deployments</li>
+						</ul></dd>
+					</dl>
+				</section>
+
+				<section>
+					<img src="lib/img/atomist-logo-with-text.png" width="300" />
+					<dl>
+						<dt>What did I work on? (2016)</dt>
+						<dd>SDLC eventing engine</dd>
+						<dt>What did I learn?</dt>
+						<dd><ul>
+							<li>logic is best specified in code</li>
+							<li>tradeoffs of representing a workflow dynamically in code rather than defined steps<ul>
+								<li>flexibility vs structure</li>
+								<li>easy to extend, but hard to enforce consistency or insight (job progress for example)</li>
+							</ul>
+						</ul>
+							</dd>
+						<dt>What innovations did I see?</dt>
+						<dd><ul>
+							<li>an extensible event-driven system backed by a data model</li>
+							<li>https://github.com/sdd-manifesto/manifesto</li>
+						</ul>
+					</dd>
+					</dl>
+				</section>
+
+				<section>
+					<img src="lib/img/pivotalLogo.png" width="300" />
+					<dl>
+						<dt>What did I work on? (2018)</dt>
+						<dd>Canal pipelines as code. Artifactory integration.</dd>
+						<dt>What did I learn?</dt>
+						<dd>Company culture has a huge impact on Spinnaker success.</dd>
+						<dt>What innovations did I see?</dt>
+						<dd><ul>
+							<li>deployable artifacts are the contract between a CI and CD system</li>
+							<li>generating pipeline with defined steps with a dynamic programming language</li>
+						</ul>
+							</dd>
+					</dl>
+				</section>
+
+				<section>
+					<img src="lib/img/armory-blue.webp" width="300" />
+					<dl>
+						<dt>What did I work on? (2019)</dt>
+						<dd>Plugins, Spinnaker release process, Astrolabe</dd>
+						<dt>What did I learn?</dt>
+						<dd><ul>
+							<li>plugins systems have a spectrum of flexibility (dangerous but useful -> safe but pointless)</li>
+							<li>an eventing lifecycle and accessible SDLC data are complementary to Spinnaker</li>
+						</ul>
+							 </dd>
+						<dt>What innovations did I see?</dt>
+						<dd>hard to judge lasting impact in the moment</dd>
+					</dl>
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
