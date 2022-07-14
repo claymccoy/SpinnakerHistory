@@ -1,4 +1,4 @@
 
 # SpinnakerArtifactory
 
-Slides describing Spinnaker's Artifactory integration using [Reveal.js](https://github.com/hakimel/reveal.js/).
+Slides describing Spinnaker's history using [Reveal.js](https://github.com/hakimel/reveal.js/).
